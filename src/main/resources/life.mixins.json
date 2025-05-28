@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "org.mythic_goose_studios.life.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ExampleMixin",
+    "PlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

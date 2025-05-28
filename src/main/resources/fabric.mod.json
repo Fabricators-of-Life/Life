@@ -1,0 +1,49 @@
+{
+	"schemaVersion": 1,
+	"id": "life",
+	"version": "${version}",
+	"name": "Life",
+	"description": "Live life as it is... not exploring. \nCustom Addons Allowed",
+	"authors": [
+		"Mythic Goose Studios"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/life/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.mythic_goose_studios.life.Life"
+		],
+		"client": [
+			"org.mythic_goose_studios.life.LifeClient"
+		],
+		"fabric-datagen": [
+			"org.mythic_goose_studios.life.LifeDataGenerator"
+		],
+		"cardinal-components": [
+			"org.mythic_goose_studios.life.component.FoodStatComponentInit"
+		]
+	},
+	"mixins": [
+		"life.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"custom": {
+		"cardinal-components": [
+			"life:food_stats"
+		]
+	}
+
+}
