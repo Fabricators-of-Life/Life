@@ -2,6 +2,13 @@
 
   "key.life.open_gui": "Open Food Stats",
   "category.life.general": "Life",
-  "gui.life.title": "Life Stats"
+  "gui.life.title": "Life Stats",
+
+
+  "advancement.life.root.name": "Life",
+  "advancement.life.root.description": "Ah, Living Life to the fullest... maybe not?",
+
+  "advancement.addon.root.name": "Life: Addon Edition",
+  "advancement.addon.root.description": "The inclusion of unofficial mods"
 
 }

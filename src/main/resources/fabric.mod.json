@@ -3,15 +3,15 @@
 	"id": "life",
 	"version": "${version}",
 	"name": "Life",
-	"description": "Live life as it is... not exploring. \nCustom Addons Allowed",
+	"description": "Live life as it is... not exploring. \nHighly Customizable \nCustom Addons Allowed",
 	"authors": [
 		"Mythic Goose Studios"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://mythic-studios.github.io",
+		"sources": "https://github.com/Fabricators-of-Life/Life"
 	},
-	"license": "CC0-1.0",
+	"license": "Mythic's Law - V3",
 	"icon": "assets/life/icon.png",
 	"environment": "*",
 	"entrypoints": {

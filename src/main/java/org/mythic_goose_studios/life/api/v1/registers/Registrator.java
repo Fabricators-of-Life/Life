@@ -1,4 +1,4 @@
-package org.mythic_goose_studios.life.api.v1;
+package org.mythic_goose_studios.life.api.v1.registers;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;

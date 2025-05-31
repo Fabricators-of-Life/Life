@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sapling"
+    },
+    "title": {
+      "translate": "advancement.addon.root.name",
+      "bold": true
+    },
+    "description": {
+      "translate": "advancement.addon.root.description",
+      "color": "#04ff00",
+      "italic": true
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "on_join": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
