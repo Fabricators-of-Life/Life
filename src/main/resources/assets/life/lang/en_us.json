@@ -9,6 +9,35 @@
   "advancement.life.root.description": "Ah, Living Life to the fullest... maybe not?",
 
   "advancement.addon.root.name": "Life: Addon Edition",
-  "advancement.addon.root.description": "The inclusion of unofficial mods"
+  "advancement.addon.root.description": "The inclusion of unofficial mods",
+
+  "text.autoconfig.life.title": "Life Config",
+  "text.autoconfig.life.category.general_settings": "General Settings",
+  "text.autoconfig.life.category.food_decay": "Food Decay Settings",
+
+  "text.autoconfig.life.option.grainsDecay": "Grains Decay Weight",
+  "text.autoconfig.life.option.grainsDecay.@Tooltip[0]": "Drain Amount for 1 of your food stats",
+  "text.autoconfig.life.option.grainsDecay.@Tooltip[1]": "Recommended Max: 1",
+  "text.autoconfig.life.option.grainsDecay.@Tooltip[2]": "Default: 0.001",
+
+  "text.autoconfig.life.option.proteinDecay": "Protein Decay Weight",
+  "text.autoconfig.life.option.proteinDecay.@Tooltip[0]": "Drain Amount for 1 of your food stats",
+  "text.autoconfig.life.option.proteinDecay.@Tooltip[1]": "Recommended Max: 1",
+  "text.autoconfig.life.option.proteinDecay.@Tooltip[2]": "Default: 0.0012",
+
+  "text.autoconfig.life.option.dairyDecay": "Dairy Decay Weight",
+  "text.autoconfig.life.option.dairyDecay.@Tooltip[0]": "Drain Amount for 1 of your food stats",
+  "text.autoconfig.life.option.dairyDecay.@Tooltip[1]": "Recommended Max: 0.05",
+  "text.autoconfig.life.option.dairyDecay.@Tooltip[2]": "Default: 0.0008",
+
+  "text.autoconfig.life.option.fruitDecay": "Fruit Decay Weight",
+  "text.autoconfig.life.option.fruitDecay.@Tooltip[0]": "Drain Amount for 1 of your food stats",
+  "text.autoconfig.life.option.fruitDecay.@Tooltip[1]": "Recommended Max: 1",
+  "text.autoconfig.life.option.fruitDecay.@Tooltip[2]": "Default: 0.0015",
+
+  "text.autoconfig.life.option.vegetableDecay": "Vegetable Decay Weight",
+  "text.autoconfig.life.option.vegetableDecay.@Tooltip[0]": "Drain Amount for 1 of your food stats",
+  "text.autoconfig.life.option.vegetableDecay.@Tooltip[1]": "Recommended Max: 1",
+  "text.autoconfig.life.option.vegetableDecay.@Tooltip[2]": "Default: 0.001"
 
 }

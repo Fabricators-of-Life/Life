@@ -8,6 +8,7 @@ import org.ladysnake.cca.api.v3.component.ComponentKey;
 import org.ladysnake.cca.api.v3.component.ComponentRegistry;
 import org.ladysnake.cca.api.v3.component.sync.AutoSyncedComponent;
 import org.mythic_goose_studios.life.Life;
+import org.mythic_goose_studios.life.config.LifeConfig;
 
 public class FoodStatsComponent implements AutoSyncedComponent {
     public static final ComponentKey<FoodStatsComponent> KEY =
@@ -20,11 +21,11 @@ public class FoodStatsComponent implements AutoSyncedComponent {
     private static final int MAX_FOOD_VALUE = 100;
 
     // Decay rates (per tick) - adjust these values to control decay speed
-    private static final float GRAINS_DECAY = 0.001f;
-    private static final float PROTEIN_DECAY = 0.0012f;
-    private static final float DAIRY_DECAY = 0.0008f;
-    private static final float FRUIT_DECAY = 0.0015f;
-    private static final float VEGETABLES_DECAY = 0.001f;
+    private static final float GRAINS_DECAY = LifeConfig.grainsDecay;
+    private static final float PROTEIN_DECAY = LifeConfig.proteinDecay;
+    private static final float DAIRY_DECAY = LifeConfig.dairyDecay;
+    private static final float FRUIT_DECAY = LifeConfig.fruitDecay;
+    private static final float VEGETABLES_DECAY = LifeConfig.vegetableDecay;
 
     // Current food values
     private float grains = MAX_FOOD_VALUE;

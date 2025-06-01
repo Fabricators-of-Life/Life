@@ -24,6 +24,9 @@
 		"fabric-datagen": [
 			"org.mythic_goose_studios.life.LifeDataGenerator"
 		],
+		"modmenu": [
+			"org.mythic_goose_studios.life.config.ModMenuIntegration"
+		],
 		"cardinal-components": [
 			"org.mythic_goose_studios.life.component.FoodStatComponentInit"
 		]

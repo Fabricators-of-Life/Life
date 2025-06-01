@@ -39,11 +39,6 @@ public class PlayerEntityMixin {
                 foodStats.addProtein(25.0f);
             }
 
-            // Dairy
-            if (item == Items.MILK_BUCKET) {
-                foodStats.addDairy(30.0f);
-            }
-
             // Fruits
             if (item == Items.APPLE || item == Items.GOLDEN_APPLE ||
                     item == Items.ENCHANTED_GOLDEN_APPLE || item == Items.MELON_SLICE ||
@@ -52,7 +47,7 @@ public class PlayerEntityMixin {
             }
 
             // Vegetables
-            if (item == Items.CARROT || item == Items.POTATO ||
+            if (item == Items.CARROT || item == Items.GOLDEN_CARROT || item == Items.POTATO ||
                     item == Items.BAKED_POTATO || item == Items.BEETROOT) {
                 foodStats.addVegetables(18.0f);
                 foodStats.removeFruit(0.6f);
@@ -62,12 +57,6 @@ public class PlayerEntityMixin {
             if (item == Items.PUMPKIN_PIE) {
                 foodStats.addGrains(10.0f); // Crust
                 foodStats.addVegetables(15.0f); // Pumpkin
-                foodStats.removeDairy(0.6f);
-            }
-
-            if (item == Items.CAKE) {
-                foodStats.addGrains(15.0f); // Flour
-                foodStats.addDairy(20.0f); // Milk/eggs
             }
         }
     }

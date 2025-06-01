@@ -7,12 +7,12 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-public class Registrator {
-    public static Item createItem(String name, Item item, String id) {
+public class Registrar {
+    protected static Item createItem(String name, Item item, String id) {
         return Registry.register(Registries.ITEM, Identifier.of(id, name), item);
     }
 
-    private static Block createBlock(String name, Block block, String id) {
+    protected static Block createBlock(String name, Block block, String id) {
         registerBlockItem(name, block, id);
         return Registry.register(Registries.BLOCK, Identifier.of(id, name), block);
     }
