@@ -42,3 +42,7 @@ replay_*.log
 # gradle
 
 build.gradle
+
+# Other
+
+changelog.txt
