@@ -21,4 +21,5 @@ public class SimpleRegistrar {
         Registry.register(Registries.ITEM, Identifier.of(id, name),
                 new BlockItem(block, new Item.Settings()));
     }
+
 }
