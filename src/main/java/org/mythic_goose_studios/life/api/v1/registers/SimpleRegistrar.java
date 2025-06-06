@@ -7,7 +7,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-public class Registrar {
+public class SimpleRegistrar {
     protected static Item createItem(String name, Item item, String id) {
         return Registry.register(Registries.ITEM, Identifier.of(id, name), item);
     }

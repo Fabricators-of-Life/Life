@@ -7,6 +7,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.world.World;
 import org.mythic_goose_studios.life.component.FoodStatsComponent;
+import org.mythic_goose_studios.life.init.LifeItems;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -51,6 +52,11 @@ public class PlayerEntityMixin {
                     item == Items.BAKED_POTATO || item == Items.BEETROOT) {
                 foodStats.addVegetables(18.0f);
                 foodStats.removeFruit(0.6f);
+            }
+
+            // Dairy (Placeholder)
+            if (item == LifeItems.PLACEHOLDER_CHEESE) {
+                foodStats.addDairy(5f);
             }
 
             // Mixed foods (add to multiple categories)

@@ -36,10 +36,10 @@ public class LifeClient implements ClientModInitializer {
         openFoodStatsKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
                 "key.life.open_gui",
                 InputUtil.Type.KEYSYM,
-                GLFW.GLFW_KEY_G, // Default to 'G' key
+                GLFW.GLFW_KEY_C, // Default to 'C' key
                 "category.life.general"
         ));
 
         Life.LOGGER.info("Life client initialized successfully!");
     }
-    }
+}

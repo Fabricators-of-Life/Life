@@ -10,6 +10,7 @@ import net.minecraft.server.network.ServerPlayerEntity;
 import org.lwjgl.glfw.GLFW;
 import org.mythic_goose_studios.life.component.FoodStatsComponent;
 import org.mythic_goose_studios.life.config.ConfigRegistery;
+import org.mythic_goose_studios.life.init.LifeItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,6 +23,7 @@ public class Life implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ConfigRegistery.register();
+		LifeItems.init();
 
 		ServerTickEvents.END_SERVER_TICK.register(server -> {
 			for (ServerPlayerEntity player : server.getPlayerManager().getPlayerList()) {
